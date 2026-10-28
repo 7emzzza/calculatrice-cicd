@@ -23,3 +23,4 @@ def test_division_par_zero():
     except ValueError:
         return
     assert False, "Une erreur devait être déclenchée"
+    
